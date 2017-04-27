@@ -1,3 +1,3 @@
 # Appium Demo
-ios: Xcode7+appium+cucumber
+ios: Xcode8+appium+cucumber
 
