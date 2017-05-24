@@ -40,7 +40,7 @@ def initialise_appium
 end
 
 def take_screenshot scenario
-  screenshot_path = "/tmp/hms/#{scenario}.png"
+  screenshot_path = "./hms/#{scenario}.png"
   screenshot screenshot_path
 end
 

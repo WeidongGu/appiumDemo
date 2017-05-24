@@ -1,0 +1,1 @@
+cucumber --tags=@e2e -f html -o report.html

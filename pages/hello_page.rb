@@ -2,12 +2,13 @@ module HelloPage
     include Test::Unit::Assertions
 
     def set_name name
-       tf = find_element(:class_name, 'UIATextField')
-       tf.type name
+      tf = find_element(:id=>'tf')
+      tf.send_keys('')
+      tf.send_keys(name)
     end
 
     def say_hello
-        button('say hello!').click
+        find_element(:id=>'btn').click
     end
   
     def should_see_alert_text(text)

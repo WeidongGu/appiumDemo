@@ -1,6 +1,6 @@
 :app_path: './appiumTestApp.app'
-:platform_version: "9.2"
-:device_name: 'iPhone 6'
+:platform_version: "10.3"
+:device_name: 'iPhone 7'
 :implicit_wait_time: 3 # seconds
 :full_reset: false
 #CI agent不能重置模拟器，所以会造成数据依赖

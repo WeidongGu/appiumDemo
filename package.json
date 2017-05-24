@@ -1,13 +1,21 @@
 {
   "name": "appiumtest",
   "version": "1.0.0",
-  "description": "",
+  "description": "ios: Xcode8+appium+cucumber",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WeidongGu/appiumDemo.git"
+  },
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WeidongGu/appiumDemo/issues"
+  },
+  "homepage": "https://github.com/WeidongGu/appiumDemo#readme",
   "dependencies": {
     "wd": "^1.2.0"
   }

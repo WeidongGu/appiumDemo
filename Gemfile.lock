@@ -31,7 +31,8 @@ GEM
     multi_test (0.1.2)
     nokogiri (1.7.1)
       mini_portile2 (~> 2.1.0)
-    power_assert (0.4.1)
+    power_assert (1.0.1)
+    rouge (1.11.1)
     rubyzip (1.2.1)
     selenium-webdriver (3.4.0)
       childprocess (~> 0.5)
@@ -41,6 +42,8 @@ GEM
       power_assert
     tomlrb (1.2.4)
     websocket (1.2.4)
+    xcpretty (0.2.6)
+      rouge (~> 1.8)
 
 PLATFORMS
   ruby
@@ -49,6 +52,7 @@ DEPENDENCIES
   appium_lib
   cucumber
   test-unit
+  xcpretty
 
 BUNDLED WITH
    1.14.6
